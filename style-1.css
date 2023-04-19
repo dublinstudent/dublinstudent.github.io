@@ -1,5 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
-body { background-color: antiquewhite; }
+body { background-color: #87D37C; }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;

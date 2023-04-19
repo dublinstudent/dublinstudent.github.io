@@ -1,4 +1,5 @@
 /*  ============= WEB BROWSER RESETS ============ */
+body { background-color: lightgreen }
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -8,6 +9,9 @@ body { line-height: 1.5; min-height: 100vh }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
+
+
+
 
 /* Desktops */
 @media (min-width: 768px) {
@@ -23,15 +27,18 @@ input, button, textarea, select { font: inherit }
 
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Times New Roman';
+    background-color:lightblue
 }
+
 
 h1 {
     font-size: 78px;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: -2px;
     margin-bottom: 12px;
     line-height: 1.2;
+    color: darkcyan;
 }
 
 h2 {
@@ -39,6 +46,7 @@ h2 {
     letter-spacing: 6px;
     margin-bottom: 48px;
     line-height: 1.2;
+    color: darkcyan;
 }
 
 h3 {
@@ -47,10 +55,14 @@ h3 {
     margin-bottom: 20px;
     line-height: 1.2;
     text-transform: uppercase;
+    color: darkcyan;
 }
 
 p {
     font-size: 20px;
     margin-bottom: 16px;
+    color: darkcyan;
 }
+
+a { color: burlywood }
 
