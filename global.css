@@ -27,13 +27,13 @@ input, button, textarea, select { font: inherit }
 
 body {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: sans-serif;
     background-color:lightblue
 }
 
 
 h1 {
-        font-size: 78px;
+    font-size: 78px;
     font-weight: bold;
     letter-spacing: -2px;
     margin-bottom: 12px;
