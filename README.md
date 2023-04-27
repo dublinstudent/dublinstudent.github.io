@@ -1,2 +1,2 @@
 # dublinstudent.github.io
-A website to explore Dublin as a student
+Student life in Dublin about to get a little easier with these tips & tricks!
