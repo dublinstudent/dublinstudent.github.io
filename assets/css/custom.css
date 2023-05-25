@@ -2,9 +2,104 @@
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
+body {
+    font-family: 'Playfair Display', serif
+}
 
-nav.theme-light ul.links-wrapper.active { background-color: var(--lime-300) }
+header.theme-light { background-color: var(--lime-200) }
+header.theme-light h1 { color: var(--cyan-900) }
+header.theme-light h2 { color: var(--cyan-800) }
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { color: var(--cyan-800) }
+
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { color: var(--cyan-900) }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { background-color: var(--lime-300) }
+
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { background-color: var(--lime-500) }
+
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited { border-color: var(--cyan-900) }
+
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):active { border-color: var(--lime-200) }
+
+
 nav.theme-light,
 nav.theme-light ul.links-wrapper.active { background-color: var(--lime-300) }
-header.theme-light { background-color: var(--lime-100) }
-header.theme-light h1 { color: var(--lime-500) }
+nav.theme-light ul.links-wrapper li a:link,
+nav.theme-light ul.links-wrapper li a:visited { color: var(--cyan-800) }
+nav.theme-light ul.links-wrapper li a:focus,
+nav.theme-light ul.links-wrapper li a:hover,
+nav.theme-light ul.links-wrapper li a:active { color: var(--cyan-900) }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { color: var(--cyan-900) }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { border-color: var(--cyan-800) }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { border-color: var(--lime-500) }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { border-color: var(--lime-500) }
+
+
+.section-selector-1.theme-light { background-color: var(--lime-100) }
+.section-selector-1 .col-1 h3 { color: var(--cyan-800) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--lime-400) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--white-000) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--cyan-800) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--cyan-900) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--cyan-800) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--lime-400) }
+
+.section-selector-1 .col-3 h3 { color: var(--cyan-800) }
+.section-selector-1 .col-3 p { color: var(--cyan-900) }
+.section-selector-1 .col-3 li { color: var(--cyan-900) }
+.section-selector-1 .col-1 h2 { color: var(--trend-700) }
+
+
+
+footer.theme-light { background-color: var(--cyan-900) }
+footer.theme-dark { background-color: var(--cyan-900) }
+footer.theme-dark > h2 { color: var(--lime-400) }
+footer.theme-dark > h3 { color: var(--lime-300) }
+footer.theme-dark .copyright { background-color: var(--cyan-900) }
+footer.theme-dark .copyright p { color: var(--lime-200) }
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { color: var(--lime-200) }
+
+footer.theme-dark > ul.footer-links li a:focus,
+footer.theme-dark > ul.footer-links li a:hover,
+footer.theme-dark > ul.footer-links li a:active { color: var(--lime-400) }
+
+footer.theme-dark > ul.footer-links li a:link,
+footer.theme-dark > ul.footer-links li a:visited { text-decoration-color: var(--lime-400) }
+
+footer.theme-dark > ul.footer-icons li a:link i,
+footer.theme-dark > ul.footer-icons li a:visited i { color: var(--cyan-600) }
+
+footer.theme-dark > ul.footer-icons li a:focus i,
+footer.theme-dark > ul.footer-icons li a:hover i,
+footer.theme-dark > ul.footer-icons li a:active i { color: var(--cyan-700) }
+
