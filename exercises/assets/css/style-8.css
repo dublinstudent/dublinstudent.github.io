@@ -47,7 +47,7 @@ h2 {
 
 /* Smaller headings */
 h3 {
-	font-family: 'Domine', sans-serif;
+	font-family: 'Domine', serif;
     font-weight: bold;
     font-size: 48px;
     color: #5b569a;
@@ -65,3 +65,7 @@ p {
    margin-bottom: 20px;
 }
 
+/* Images */
+img { 
+    margin-bottom: 32px
+}

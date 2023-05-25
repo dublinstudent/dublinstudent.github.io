@@ -29,11 +29,13 @@ h2 {
 h3 {
     font-size: 32px;
     margin-bottom: 4px;
+    color: blue;
 }
 
 p {
     font-size: 24px;
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    color: blue;
 }
 
 a { color: blue; }
